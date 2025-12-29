@@ -1,12 +1,12 @@
 const { chromium } = require('playwright');
 
 // بيانات التجربة (غيرها حسب ما تحب)
-const username = 'testuser';
-const email = 'test@mail.com';
+const username = 'botaomar222';
+const email = '9214314bc7@webxio.pro';
 const password = '518184ff';
 const senderName = 'MySender';
 const message = 'Hello there!';
-const numbersList = '1234567890\n0987654321'; // كل رقم بسطر جديد
+const numbersList = '96179110477'; // كل رقم بسطر جديد
 
 // تنويع
 const userAgents = [
@@ -53,3 +53,4 @@ function pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
 
   await browser.close();
 })();
+
